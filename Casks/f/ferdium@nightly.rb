@@ -14,7 +14,6 @@ cask "ferdium@nightly" do
   livecheck do
     url :url
     regex(/v?(\d+(?:\.\d+)+-nightly\.\d+)/i)
-    strategy :github_releases
   end
 
   auto_updates true
